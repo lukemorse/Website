@@ -11,16 +11,13 @@ class App extends Component {
           <h1 className="App-title">Luke Morse</h1>
           <span className="Links">
             <h2>
-              <a href="#">Music</a>
-            </h2>
-            <h2>
               <a href="#">Development</a>
             </h2>
             <h2>
-              <a href="#">Bio</a>
+              <a href="#">Music</a>
             </h2>
             <h2>
-              <a href="#">Pizza</a>
+              <a href="#">Sound</a>
             </h2>
           </span>
         </header>

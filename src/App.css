@@ -3,15 +3,17 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  float: left;
+  animation: App-logo-spin infinite 30s linear;
+  height: 200px;
 }
 
 .App-header {
   background-color: #222;
   height: 200px;
   padding: 20px;
-  color: white;
+  color: black;
+  background-color: white;
 }
 
 .App-title {
@@ -30,11 +32,13 @@
 }
 
 a {
-  color: green;
+  animation: unhighlight 0.8s;
+  color: black;
 }
 
 a:hover {
-  color: cyan;
+  animation: highlight 0.8s;
+  color: blue;
 }
 
 @keyframes App-logo-spin {
@@ -43,5 +47,23 @@ a:hover {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes highlight {
+  0% {
+    color: black;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+@keyframes unhighlight {
+  0% {
+    color: blue;
+  }
+  100% {
+    color: black;
   }
 }
