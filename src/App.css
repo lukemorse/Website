@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  float: left;
+  position: absolute;
+  left: 0;
   animation: App-logo-spin infinite 30s linear;
   height: 200px;
 }
@@ -17,7 +18,7 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 4.5em;
 }
 
 .App-intro {
