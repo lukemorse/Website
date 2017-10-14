@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import faceShot from './JLu Head shot.png';
-import './App.css';
+import './Site.css';
 import Background from './Background.js';
 
-class App extends Component {
+class Site extends Component {
   render() {
     return (
       <div>
@@ -38,4 +38,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Site;
