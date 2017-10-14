@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 40;
+  line-height: 1.67;
 }
 
 .App-logo {
-  position: absolute;
-  left: 0;
+  float: left;
   animation: App-logo-spin infinite 30s linear;
   height: 200px;
 }
@@ -25,16 +27,30 @@
   font-size: large;
 }
 
-.Links h2 {
+.Menu h3 {
   text-align: left;
+  font-size: large;
   float: left;
-  color: green;
-  padding: 0px 100px;
+  color: black;
+  padding: 20px 100px;
+}
+
+.Menu h2 {
+  text-align: center;
+  clear: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  justify-content: flex-end;
 }
 
 a {
   animation: unhighlight 0.8s;
   color: black;
+}
+
+a.Email {
+  text-decoration: underline blue;
 }
 
 a:hover {
@@ -53,7 +69,7 @@ a:hover {
 
 @keyframes highlight {
   0% {
-    color: black;
+    color: inherit;
   }
   100% {
     color: blue;
@@ -62,7 +78,7 @@ a:hover {
 
 @keyframes unhighlight {
   0% {
-    color: blue;
+    color: inherit;
   }
   100% {
     color: black;
