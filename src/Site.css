@@ -1,4 +1,4 @@
-.App {
+.Site {
   text-align: center;
   font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 40;
@@ -6,13 +6,13 @@
   margin-bottom: 50px;
 }
 
-.App-logo {
+.Logo {
   float: left;
   animation: App-logo-spin infinite 30s linear;
   height: 200px;
 }
 
-.App-header {
+.Header {
   background-color: #222;
   height: 200px;
   padding: 20px;

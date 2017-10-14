@@ -7,9 +7,9 @@ class Site extends Component {
   render() {
     return (
       <div>
-        <div className="App">
-          <header className="App-header">
-            <img src={faceShot} className="App-logo" alt="logo" />
+        <div className="Site">
+          <header className="Header">
+            <img src={faceShot} className="Logo" alt="logo" />
             <span className="Menu">
               <h3>
                 <a href="#">Development</a>
