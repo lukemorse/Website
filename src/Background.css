@@ -1,7 +1,19 @@
-.Background {
-  text-align: center;
+.background {
+}
+
+.section_title {
+  padding-top: 550px;
+  padding-left: 50px;
+  text-align: left;
   font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
-  font-size: 40;
+  font-size: medium;
+  color: blue;
   line-height: 1.67;
-  clear: all;
+  float: left;
+}
+
+.section_content {
+  float: left;
+  width: 500px;
+  overflow: hidden;
 }

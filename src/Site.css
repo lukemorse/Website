@@ -14,7 +14,7 @@
 
 .Header {
   background-color: #222;
-  height: 200px;
+  height: 250px;
   padding: 20px;
   color: black;
   background-color: white;
@@ -36,13 +36,18 @@
   padding: 20px 100px;
 }
 
-.Menu h2 {
+.Intro {
   text-align: center;
   clear: left;
+  height: 800px;
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 50px;
   justify-content: flex-end;
+}
+
+.clear {
+  clear: both;
 }
 
 a {

@@ -20,15 +20,17 @@ class Site extends Component {
               <h3>
                 <a href="#">Sound</a>
               </h3>
-              <h2>
-                Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
-                electronic mail:{' '}
-                <a class="Email" href="mailto:luke.morse@gmail.com">
-                  luke.morse@gmail.com
-                </a>
-              </h2>
             </span>
           </header>
+          <div className="Intro">
+            <h2>
+              Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
+              electronic mail:{' '}
+              <a className="Email" href="mailto:luke.morse@gmail.com">
+                luke.morse@gmail.com
+              </a>
+            </h2>
+          </div>
         </div>
         <div>
           <Background />
