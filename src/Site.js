@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import faceShot from './JLu Head shot.png';
+import headShot from './JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
 
@@ -9,7 +9,7 @@ class Site extends Component {
       <div>
         <div className="Site">
           <header className="Header">
-            <img src={faceShot} className="Logo" alt="logo" />
+            <img src={headShot} className="Logo" alt="logo" />
             <span className="Menu">
               <h3>
                 <a href="#">Development</a>

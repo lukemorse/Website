@@ -2,18 +2,17 @@
 }
 
 .section_title {
-  padding-top: 550px;
+  display: inline-block;
+  vertical-align: top;
   padding-left: 50px;
-  text-align: left;
+  text-align: right;
   font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: medium;
   color: blue;
-  line-height: 1.67;
-  float: left;
 }
 
 .section_content {
-  float: left;
+  display: inline-block;
   width: 500px;
-  overflow: hidden;
+  padding-left: 30px;
 }
