@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import headShot from './JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
+import Skills from './Skills.js';
 
 class Site extends Component {
   render() {
@@ -34,6 +35,7 @@ class Site extends Component {
         </div>
         <div>
           <Background />
+          <Skills />
         </div>
       </div>
     );

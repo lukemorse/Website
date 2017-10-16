@@ -53,6 +53,7 @@
 a {
   animation: unhighlight 0.8s;
   color: black;
+  text-decoration: underline;
 }
 
 a.Email {
