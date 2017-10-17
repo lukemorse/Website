@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './Skills.css';
+import './Generic_Content.css';
 
 export default class Skills extends Component {
   render() {
     return (
-      <div className="skills">
+      <div className="content">
         <h1 className="section_title">SKILLS</h1>
         <div className="section_content">
           <div className="skills_category">

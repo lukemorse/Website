@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import './Background.css';
+import './Generic_Content.css';
 
 export default class Background extends Component {
   render() {
     return (
-      <div className="background">
+      <div className="content">
         <h1 className="section_title">BACKGROUND</h1>
         <div className="section_content">
           <h3>

@@ -3,23 +3,6 @@
   padding-bottom: 100px;
 }
 
-.section_title {
-  display: inline-block;
-  margin: 0;
-  vertical-align: top;
-  padding-left: 50px;
-  text-align: right;
-  font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
-  font-size: medium;
-  color: blue;
-}
-
-.section_content {
-  display: inline-block;
-  width: 500px;
-  padding-left: 30px;
-}
-
 .skills_category_title {
   font-weight: bold;
 }
