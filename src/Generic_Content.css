@@ -2,6 +2,13 @@
   margin-left: 200px;
   padding-top: 100px;
   padding-bottom: 100px;
+  /*visibility: hidden;
+  opacity: 0;*/
+}
+
+.content .show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .section_title {

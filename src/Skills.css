@@ -1,10 +1,15 @@
 .skills {
-  padding-top: 100px;
+  padding-top: 300px;
   padding-bottom: 100px;
 }
 
+.skills_category {
+  display: inline-block;
+  padding-right: 50px;
+}
+
 .skills_category_title {
-  font-weight: bold;
+  font-weight: 800;
 }
 
 ul {

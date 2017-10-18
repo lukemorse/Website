@@ -17,6 +17,8 @@ export default class Skills extends Component {
               <li>HTML5/CSS3</li>
               <li>C++</li>
             </ul>
+          </div>
+          <div className="skills_category">
             <div className="skills_category_title">FRAMEWORKS</div>
             <ul>
               <li>React</li>
@@ -24,6 +26,16 @@ export default class Skills extends Component {
               <li>XCTest</li>
               <li>SpriteKit</li>
               <li>Core Data</li>
+            </ul>
+          </div>
+          <div className="skills_category">
+            <div className="skills_category_title">TOOLS</div>
+            <ul>
+              <li>Git & Github</li>
+              <li>CocoaPods</li>
+              <li>Command Line</li>
+              <li>Chrome DevTools</li>
+              <li>Postman</li>
             </ul>
           </div>
         </div>

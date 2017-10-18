@@ -3,8 +3,14 @@ import headShot from './JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
 import Skills from './Skills.js';
+import ScrollReveal from 'scrollreveal';
 
 class Site extends Component {
+  componentDidMount() {
+    window.sr = ScrollReveal({duration: 2000});
+    window.sr.reveal('.Site');
+  }
+
   render() {
     return (
       <div>
