@@ -47,6 +47,9 @@ class Site extends Component {
         <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
           <Projects />
         </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+          <Skills />
+        </ScrollAnimation>
       </div>
     );
   }
