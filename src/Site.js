@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import headShot from './JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
+import Projects from './Projects.js';
 import Skills from './Skills.js';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
@@ -44,7 +45,7 @@ class Site extends Component {
           <Skills />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
-          <Skills />
+          <Projects />
         </ScrollAnimation>
       </div>
     );

@@ -1,0 +1,13 @@
+.IceCream {
+  width: 50%;
+  height: 50%;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.Explanation {
+  vertical-align: top;
+  font-size: medium;
+  display: inline-block;
+  width: 200px;
+}
