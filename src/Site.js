@@ -11,23 +11,21 @@ class Site extends Component {
     return (
       <div>
         <div className="Site">
-          <ScrollAnimation animateIn="fadeIn">
-            <header className="Header">
-              <img src={headShot} className="Logo" alt="logo" />
-              <span className="Menu">
-                <h3>
-                  <a href="#">Development</a>
-                </h3>
-                <h3>
-                  <a href="#">Music</a>
-                </h3>
-                <h3>
-                  <a href="#">Sound</a>
-                </h3>
-              </span>
-            </header>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
+          <header className="Header">
+            <img src={headShot} className="Logo" alt="logo" />
+            <span className="Menu">
+              <h3>
+                <a href="#">Development</a>
+              </h3>
+              <h3>
+                <a href="#">Music</a>
+              </h3>
+              <h3>
+                <a href="#">Sound</a>
+              </h3>
+            </span>
+          </header>
+          <ScrollAnimation animateIn="fadeInUp">
             <div className="Intro">
               <h2>
                 Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
@@ -39,10 +37,10 @@ class Site extends Component {
             </div>
           </ScrollAnimation>
         </div>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn="fadeInUp">
           <Background />
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn="fadeInUp">
           <Skills />
         </ScrollAnimation>
       </div>

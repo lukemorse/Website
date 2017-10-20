@@ -39,10 +39,10 @@
 .Intro {
   text-align: center;
   clear: left;
-  height: 800px;
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 50px;
+  margin-bottom: 200px;
   justify-content: flex-end;
 }
 
