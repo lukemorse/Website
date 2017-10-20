@@ -25,7 +25,7 @@ class Site extends Component {
               </h3>
             </span>
           </header>
-          <ScrollAnimation animateIn="fadeInUp">
+          <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
             <div className="Intro">
               <h2>
                 Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
@@ -37,10 +37,13 @@ class Site extends Component {
             </div>
           </ScrollAnimation>
         </div>
-        <ScrollAnimation animateIn="fadeInUp">
+        <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
           <Background />
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp">
+        <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+          <Skills />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
           <Skills />
         </ScrollAnimation>
       </div>
