@@ -45,10 +45,14 @@ export default class Projects extends Component {
               <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
             </a>
             <h3 className="Explanation">
-              <a href="https://itunes.apple.com/app/id1226528959" target="_blank">
+              <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
                 X Sessions
               </a>{' '}
-              is a motion video/animation that I did sound design for.
+              is a motion video/animation by{' '}
+              <a href="https://tedbattaglia.com/" target="_blank">
+                Theodore Battaglia
+              </a>{' '}
+              that I did sound design for.
             </h3>
           </div>
 
@@ -57,10 +61,13 @@ export default class Projects extends Component {
               <img className="Project_Picture" src={CapGroupLogo} alt="IO By The Numbers" />
             </a>
             <h3 className="Explanation">
-              <a href="https://itunes.apple.com/app/id1226528959" target="_blank">
+              <a href="https://vimeo.com/112253396" target="_blank">
                 IO By The Numbers
               </a>{' '}
-              is a motion video/animation that I did sound design for.
+              is another collaboration I did with visual artist,{' '}
+              <a href="https://tedbattaglia.com/" target="_blank">
+                Ted Battaglia
+              </a>.
             </h3>
           </div>
         </div>
