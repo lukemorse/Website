@@ -5,6 +5,11 @@
   display: inline-block;
 }
 
+.section_content {
+  display: block;
+  padding-left: 100px;
+}
+
 .Explanation {
   vertical-align: top;
   font-size: medium;

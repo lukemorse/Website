@@ -9,11 +9,14 @@ export default class Background extends Component {
         <div className="section_content">
           <h3>
             I started programming in graduate school, where I wrote sound-synthesis programs using{' '}
-            <a href="http://supercollider.github.io/SuperCollider">SuperCollider</a>. After earning my Master's of Music
-            in Composition, I began studying iOS development. I released my first app, a game called{' '}
-            <a href="https://itunes.apple.com/us/app/ice-cream-explosion/id1205754650?mt=8">Ice Cream Explosion</a>, in
-            the App Store in February, 2017. Since then, I have been working with two Chicago startups, Jupiter 69 and
-            Adapted Actualization Labs. <br />
+            <a href="http://supercollider.github.io/SuperCollider" target="_blank">
+              SuperCollider
+            </a>. After earning my Master's of Music in Composition, I began studying iOS development. I released my
+            first app, a game called{' '}
+            <a href="https://itunes.apple.com/us/app/ice-cream-explosion/id1205754650?mt=8" target="_blank">
+              Ice Cream Explosion
+            </a>, in the App Store in February, 2017. Since then, I have been working with two Chicago startups, Jupiter
+            69 and Adapted Actualization Labs. <br />
             <br />Coming into front-end development from a background in composition, I enjoy applying ratios of small
             integers to user interfaces and visual design.
           </h3>
