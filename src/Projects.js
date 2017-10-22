@@ -3,6 +3,8 @@ import './Projects.css';
 import './Generic_Content.css';
 import iceCreamExp from './iTunesArtwork@2x.png';
 import JellyGhost from './JellyGhost.png';
+import XSessionsLogo from './x-sessions-logo.jpg';
+import CapGroupLogo from './cap-group-logo.jpg';
 
 export default class Projects extends Component {
   render() {
@@ -35,6 +37,30 @@ export default class Projects extends Component {
                 Jelly Ghost
               </a>{' '}
               is a game that I made for a client.
+            </h3>
+          </div>
+
+          <div className="section_content">
+            <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
+              <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
+            </a>
+            <h3 className="Explanation">
+              <a href="https://itunes.apple.com/app/id1226528959" target="_blank">
+                X Sessions
+              </a>{' '}
+              is a motion video/animation that I did sound design for.
+            </h3>
+          </div>
+
+          <div className="section_content">
+            <a href="https://vimeo.com/112253396" target="_blank">
+              <img className="Project_Picture" src={CapGroupLogo} alt="IO By The Numbers" />
+            </a>
+            <h3 className="Explanation">
+              <a href="https://itunes.apple.com/app/id1226528959" target="_blank">
+                IO By The Numbers
+              </a>{' '}
+              is a motion video/animation that I did sound design for.
             </h3>
           </div>
         </div>
