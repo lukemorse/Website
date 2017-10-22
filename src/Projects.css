@@ -7,7 +7,7 @@
 
 .section_content {
   display: block;
-  padding-left: 100px;
+  align-content: left;
 }
 
 .Explanation {
