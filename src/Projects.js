@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import './Projects.css';
 import './Generic_Content.css';
-import iceCreamExp from './iTunesArtwork@2x.png';
-import JellyGhost from './JellyGhost.png';
-import XSessionsLogo from './x-sessions-logo.jpg';
-import CapGroupLogo from './cap-group-logo.jpg';
+import iceCreamExp from './images/icecreampic.png';
+import JellyGhost from './images/JellyGhost.png';
+import XSessionsLogo from './images/x-sessions-logo.jpg';
+import CapGroupLogo from './images/cap-group-logo.jpg';
+import YayConPic from './images/yayconpic.jpg';
+import SpringMusicPic from './images/springmusic.jpg';
 
 export default class Projects extends Component {
   render() {
@@ -40,6 +42,7 @@ export default class Projects extends Component {
             </h3>
           </div>
 
+          <h1 className="section_title">SOUND DESIGN</h1>
           <div className="section_content">
             <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
               <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
@@ -68,6 +71,39 @@ export default class Projects extends Component {
               <a href="https://tedbattaglia.com/" target="_blank">
                 Ted Battaglia
               </a>.
+            </h3>
+          </div>
+
+          <h1 className="section_title">MUSIC</h1>
+          <div className="section_content">
+            <a href="https://lukemorse.bandcamp.com/releases" target="_blank">
+              <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
+            </a>
+            <h3 className="Explanation">
+              <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
+                X Sessions
+              </a>{' '}
+              is a motion video/animation by{' '}
+              <a href="https://tedbattaglia.com/" target="_blank">
+                Theodore Battaglia
+              </a>{' '}
+              that I did sound design for.
+            </h3>
+          </div>
+
+          <div className="section_content">
+            <a href="https://yayconifers.bandcamp.com/album/mt-pilchuck" target="_blank">
+              <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
+            </a>
+            <h3 className="Explanation">
+              <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
+                X Sessions
+              </a>{' '}
+              is a motion video/animation by{' '}
+              <a href="https://tedbattaglia.com/" target="_blank">
+                Theodore Battaglia
+              </a>{' '}
+              that I did sound design for.
             </h3>
           </div>
         </div>

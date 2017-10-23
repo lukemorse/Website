@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import headShot from './JLu Head shot.png';
+import headShot from './images/JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
 import Projects from './Projects.js';
