@@ -41,7 +41,9 @@ export default class Projects extends Component {
               is a game that I made for a client.
             </h3>
           </div>
+        </div>
 
+        <div className="content">
           <h1 className="section_title">SOUND DESIGN</h1>
           <div className="section_content">
             <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
@@ -73,37 +75,36 @@ export default class Projects extends Component {
               </a>.
             </h3>
           </div>
+        </div>
 
+        <div className="content">
           <h1 className="section_title">MUSIC</h1>
           <div className="section_content">
             <a href="https://lukemorse.bandcamp.com/releases" target="_blank">
-              <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
+              <img className="Project_Picture" src={SpringMusicPic} alt="Spring Music" />
             </a>
             <h3 className="Explanation">
-              <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
-                X Sessions
+              <a href="https://lukemorse.bandcamp.com/releases" target="_blank">
+                Spring Music
               </a>{' '}
-              is a motion video/animation by{' '}
-              <a href="https://tedbattaglia.com/" target="_blank">
-                Theodore Battaglia
-              </a>{' '}
-              that I did sound design for.
+              was my Master's thesis. I wrote a program to reassemble the sounds according to spectral readings at
+              percussive onsets.
             </h3>
           </div>
 
           <div className="section_content">
             <a href="https://yayconifers.bandcamp.com/album/mt-pilchuck" target="_blank">
-              <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
+              <img className="Project_Picture" src={YayConPic} alt="Yay Conifers!" />
             </a>
             <h3 className="Explanation">
-              <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
-                X Sessions
+              <a href="https://yayconifers.bandcamp.com/album/mt-pilchuck" target="_blank">
+                Yay Conifers!
               </a>{' '}
-              is a motion video/animation by{' '}
-              <a href="https://tedbattaglia.com/" target="_blank">
-                Theodore Battaglia
+              was a collaboration with
+              <a href="https://soundcloud.com/mirandarae/tracks" target="_blank">
+                Miranda Rae
               </a>{' '}
-              that I did sound design for.
+              that I produced and perfomed in Seattle with.
             </h3>
           </div>
         </div>
