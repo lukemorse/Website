@@ -6,6 +6,7 @@ import Projects from './Projects.js';
 import Skills from './Skills.js';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
+import Footer from './Footer.js';
 
 class Site extends Component {
   render() {
@@ -50,6 +51,7 @@ class Site extends Component {
         <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
           <Skills />
         </ScrollAnimation>
+        <Footer />
       </div>
     );
   }

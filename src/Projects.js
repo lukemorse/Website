@@ -100,7 +100,7 @@ export default class Projects extends Component {
               <a href="https://yayconifers.bandcamp.com/album/mt-pilchuck" target="_blank">
                 Yay Conifers!
               </a>{' '}
-              was a collaboration with
+              was a collaboration with{' '}
               <a href="https://soundcloud.com/mirandarae/tracks" target="_blank">
                 Miranda Rae
               </a>{' '}
