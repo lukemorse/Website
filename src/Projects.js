@@ -15,7 +15,10 @@ export default class Projects extends Component {
         <div className="content">
           <h1 className="section_title">PROJECTS</h1>
           <div className="section_content">
-            <a href="https://itunes.apple.com/us/app/ice-cream-explosion/id1205754650?mt=8" target="_blank">
+            <a
+              href="https://itunes.apple.com/us/app/ice-cream-explosion/id1205754650?mt=8"
+              className="image"
+              target="_blank">
               <img className="Project_Picture" src={iceCreamExp} alt="Ice Cream Explosion!" />
             </a>
             <h3 className="Explanation">
@@ -31,7 +34,7 @@ export default class Projects extends Component {
           </div>
 
           <div className="section_content">
-            <a href="https://itunes.apple.com/app/id1226528959" target="_blank">
+            <a href="https://itunes.apple.com/app/id1226528959" className="image" target="_blank">
               <img className="Project_Picture" src={JellyGhost} alt="Jelly Ghost" />
             </a>
             <h3 className="Explanation">
@@ -46,7 +49,7 @@ export default class Projects extends Component {
         <div className="content">
           <h1 className="section_title">SOUND DESIGN</h1>
           <div className="section_content">
-            <a href="https://tedbattaglia.com/#/xsession/" target="_blank">
+            <a href="https://tedbattaglia.com/#/xsession/" className="image" target="_blank">
               <img className="Project_Picture" src={XSessionsLogo} alt="X Sessions" />
             </a>
             <h3 className="Explanation">
@@ -62,7 +65,7 @@ export default class Projects extends Component {
           </div>
 
           <div className="section_content">
-            <a href="https://vimeo.com/112253396" target="_blank">
+            <a href="https://vimeo.com/112253396" className="image" target="_blank">
               <img className="Project_Picture" src={CapGroupLogo} alt="IO By The Numbers" />
             </a>
             <h3 className="Explanation">
@@ -80,7 +83,7 @@ export default class Projects extends Component {
         <div className="content">
           <h1 className="section_title">MUSIC</h1>
           <div className="section_content">
-            <a href="https://lukemorse.bandcamp.com/releases" target="_blank">
+            <a href="https://lukemorse.bandcamp.com/releases" className="image" target="_blank">
               <img className="Project_Picture" src={SpringMusicPic} alt="Spring Music" />
             </a>
             <h3 className="Explanation">
@@ -93,7 +96,7 @@ export default class Projects extends Component {
           </div>
 
           <div className="section_content">
-            <a href="https://yayconifers.bandcamp.com/album/mt-pilchuck" target="_blank">
+            <a href="https://yayconifers.bandcamp.com/album/mt-pilchuck" className="image" target="_blank">
               <img className="Project_Picture" src={YayConPic} alt="Yay Conifers!" />
             </a>
             <h3 className="Explanation">

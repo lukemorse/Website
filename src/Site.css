@@ -60,6 +60,28 @@ a:hover {
   background-color: #0092ff;
 }
 
+a.image {
+  animation: none;
+  background: none;
+}
+
+a img {
+  opacity: 0.67;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+@keyframes image-hover {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
