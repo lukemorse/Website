@@ -8,6 +8,8 @@
 .section_content {
   display: block;
   align-content: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 img {

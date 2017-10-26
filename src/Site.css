@@ -1,7 +1,7 @@
 .Site {
   text-align: center;
-  font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
-  font-size: 40;
+  font-family: 'Arial';
+  font-size: 45;
   line-height: 1.67;
   margin-bottom: 50px;
 }
@@ -27,7 +27,8 @@
 
 .Menu h3 {
   text-align: left;
-  font-size: large;
+  text-decoration: none;
+  font-size: 30px;
   float: left;
   color: black;
   padding: 20px 100px;
@@ -41,6 +42,8 @@
   margin-top: 50px;
   margin-bottom: 200px;
   justify-content: flex-end;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .clear {
@@ -49,6 +52,7 @@
 
 a {
   color: lightgrey;
+  text-decoration: none;
 }
 
 a.Email {
@@ -94,9 +98,11 @@ img:hover {
 @keyframes highlight {
   0% {
     background-color: inherit;
+    color: inherit;
   }
   100% {
     background-color: #0092ff;
+    color: black;
   }
 }
 
