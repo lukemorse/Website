@@ -27,11 +27,12 @@
 
 .Menu h3 {
   text-align: left;
+  letter-spacing: 2px;
   text-decoration: none;
   font-size: 30px;
   float: left;
   color: black;
-  padding: 20px 100px;
+  padding: 20px 80px;
 }
 
 .Intro {
@@ -61,7 +62,6 @@ a.Email {
 
 a:hover {
   animation: highlight 0.8s;
-  background-color: #2e86c1;
   animation-fill-mode: forwards;
 }
 

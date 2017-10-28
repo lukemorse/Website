@@ -8,13 +8,15 @@
   vertical-align: top;
   text-align: right;
   font-size: large;
-  color: blue;
+  color: #0092ff;
+  letter-spacing: 2px;
 }
 
 .section_content {
+  font-family: 'Arial';
   margin-top: 50px;
   display: inline-block;
-  width: 500px;
+  width: 600px;
   padding-left: 80px;
 }
 
