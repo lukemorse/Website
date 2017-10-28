@@ -61,7 +61,8 @@ a.Email {
 
 a:hover {
   animation: highlight 0.8s;
-  background-color: #0092ff;
+  background-color: #2e86c1;
+  animation-fill-mode: forwards;
 }
 
 a.image {
@@ -79,7 +80,7 @@ img:hover {
 
 @keyframes image-hover {
   0% {
-    opacity: 0.5;
+    opacity: 0.67;
   }
   100% {
     opacity: 1;
@@ -98,7 +99,7 @@ img:hover {
 @keyframes highlight {
   0% {
     background-color: inherit;
-    color: inherit;
+    color: lightgrey;
   }
   100% {
     background-color: #0092ff;
