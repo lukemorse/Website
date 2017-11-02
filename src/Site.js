@@ -37,7 +37,6 @@ class Site extends Component {
         <Background />
         <Skills />
         <Projects />
-        <Skills />
         <Footer />
       </div>
     );

@@ -10,10 +10,11 @@
 
 .skills_category_title {
   font-weight: 800;
+  font-size: 24px;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
-  font-size: 17px;
+  font-size: 22px;
 }
