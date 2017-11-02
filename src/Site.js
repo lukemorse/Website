@@ -7,37 +7,55 @@ import Skills from './Skills.js';
 import 'animate.css/animate.min.css';
 import Footer from './Footer.js';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import {configureAnchors} from 'react-scrollable-anchor';
 
 class Site extends Component {
   render() {
+    configureAnchors({offset: 0, scrollDuration: 800});
     return (
       <div>
         <div className="Site">
           <nav className="Menu">
-            <img src={headShot} className="Logo" alt="logo" />
+            <a href="#top">
+              <img src={headShot} className="Logo" alt="logo" />
+            </a>
             <h3>
-              <a href="#">Software</a>
+              <a href="#background">Background</a>
             </h3>
             <h3>
-              <a href="#">Music</a>
+              <a href="#skills">Skills</a>
             </h3>
             <h3>
-              <a href="#">Sound</a>
+              <a href="#games">Games</a>
+            </h3>
+            <h3>
+              <a href="#sound">Sound</a>
+            </h3>
+            <h3>
+              <a href="#music">Music</a>
             </h3>
           </nav>
-          <div className="Intro">
-            <h2>
-              Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
-              electronic mail:{' '}
-              <a className="Email" href="mailto:luke.morse@gmail.com">
-                luke.morse@gmail.com
-              </a>
-            </h2>
-          </div>
+          <ScrollableAnchor id={'top'}>
+            <div className="Intro">
+              <h2>
+                Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
+                electronic mail:{' '}
+                <a className="Email" href="mailto:luke.morse@gmail.com">
+                  luke.morse@gmail.com
+                </a>
+              </h2>
+            </div>
+          </ScrollableAnchor>
         </div>
-        <Background />
-        <Skills />
-        <Projects />
+        <ScrollableAnchor id={'background'}>
+          <Background />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'skills'}>
+          <Skills />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'games'}>
+          <Projects />
+        </ScrollableAnchor>
         <Footer />
       </div>
     );
