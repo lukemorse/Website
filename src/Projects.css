@@ -12,6 +12,10 @@
   padding-bottom: 50px;
 }
 
+.spacer {
+  height: 100px;
+}
+
 img {
   border-radius: 50px;
 }

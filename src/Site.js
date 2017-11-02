@@ -11,7 +11,7 @@ import {configureAnchors} from 'react-scrollable-anchor';
 
 class Site extends Component {
   render() {
-    configureAnchors({offset: 0, scrollDuration: 800});
+    configureAnchors({offset: 0, scrollDuration: 300, keepLastAnchorHash: false});
     return (
       <div>
         <div className="Site">
@@ -35,8 +35,8 @@ class Site extends Component {
               <a href="#music">Music</a>
             </h3>
           </nav>
-          <ScrollableAnchor id={'top'}>
-            <div className="Intro">
+          <div className="Intro">
+            <ScrollableAnchor id={'top'}>
               <h2>
                 Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
                 electronic mail:{' '}
@@ -44,15 +44,18 @@ class Site extends Component {
                   luke.morse@gmail.com
                 </a>
               </h2>
-            </div>
-          </ScrollableAnchor>
+            </ScrollableAnchor>
+          </div>
         </div>
+        <div class="spacer" />
         <ScrollableAnchor id={'background'}>
           <Background />
         </ScrollableAnchor>
+        <div class="spacer" />
         <ScrollableAnchor id={'skills'}>
           <Skills />
         </ScrollableAnchor>
+        <div class="spacer" />
         <ScrollableAnchor id={'games'}>
           <Projects />
         </ScrollableAnchor>
