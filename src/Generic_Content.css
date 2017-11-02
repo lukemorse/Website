@@ -7,9 +7,9 @@
   display: inline-block;
   vertical-align: top;
   text-align: right;
-  font-size: large;
+  font-size: 22px;
   color: #0092ff;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 .section_content {
@@ -21,7 +21,7 @@
 }
 
 .section_content h3 {
-  margin: 0;
+  margin-right: 200px;
   font-size: 22px;
   font-weight: 200;
   letter-spacing: 1.2px;

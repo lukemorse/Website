@@ -6,6 +6,7 @@ import Projects from './Projects.js';
 import Skills from './Skills.js';
 import 'animate.css/animate.min.css';
 import Footer from './Footer.js';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Site extends Component {
   render() {
