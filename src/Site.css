@@ -22,10 +22,6 @@
   font-size: 4.5em;
 }
 
-.App-intro {
-  font-size: large;
-}
-
 .Menu {
   text-align: center;
   letter-spacing: 2px;
@@ -44,8 +40,8 @@
   clear: left;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 50px;
   margin-bottom: 200px;
+  padding-top: 200px;
   justify-content: flex-end;
   font-size: 18px;
   font-weight: 300;
