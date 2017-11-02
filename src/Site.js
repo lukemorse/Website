@@ -13,20 +13,18 @@ class Site extends Component {
     return (
       <div>
         <div className="Site">
-          <header className="Header">
+          <nav className="Menu">
             <img src={headShot} className="Logo" alt="logo" />
-            <span className="Menu">
-              <h3>
-                <a href="#">Development</a>
-              </h3>
-              <h3>
-                <a href="#">Music</a>
-              </h3>
-              <h3>
-                <a href="#">Sound</a>
-              </h3>
-            </span>
-          </header>
+            <h3>
+              <a href="#">Software</a>
+            </h3>
+            <h3>
+              <a href="#">Music</a>
+            </h3>
+            <h3>
+              <a href="#">Sound</a>
+            </h3>
+          </nav>
           <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
             <div className="Intro">
               <h2>
