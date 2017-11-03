@@ -59,7 +59,6 @@ class Site extends Component {
         <ScrollableAnchor id={'games'}>
           <Projects />
         </ScrollableAnchor>
-        <Footer />
       </div>
     );
   }
