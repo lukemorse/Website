@@ -16,7 +16,7 @@ class Site extends Component {
       <div>
         <div className="Site">
           <nav className="Menu">
-            <a href="#top">
+            <a href="#top" id="Logo">
               <img src={headShot} className="Logo" alt="logo" />
             </a>
             <h3>

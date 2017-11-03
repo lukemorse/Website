@@ -13,6 +13,10 @@
   z-index: 5;
 }
 
+#Logo {
+  animation: none;
+}
+
 .spacer {
   height: 100px;
 }
