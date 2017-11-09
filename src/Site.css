@@ -16,6 +16,7 @@
 
 #Logo {
   animation: none;
+  border: none;
 }
 
 .spacer {
@@ -67,9 +68,12 @@
   clear: both;
 }
 
-a {
+.Menu a {
   color: lightgrey;
-  text-decoration: underline;
+  text-decoration: none;
+  /*border: 0.05em solid white;
+  border-radius: 0.3em;*/
+  padding: 0.2em;
 }
 
 a.Email {
@@ -83,7 +87,6 @@ a:hover {
 
 a.image {
   animation: none;
-  background: none;
 }
 
 a img {
