@@ -8,8 +8,8 @@
 
 .Logo {
   animation: App-logo-spin infinite 10s linear;
-  width: 10vw;
-  height: 10vw;
+  width: 12rem;
+  height: 12rem;
   z-index: 5;
   vertical-align: middle;
 }
@@ -46,10 +46,10 @@
 }
 
 .Menu h3 {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 3rem;
+  padding-right: 3rem;
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 2.8rem;
 }
 
 .Intro {
@@ -134,3 +134,33 @@ img:hover {
     color: lightgrey;
   }
 }
+
+@media (min-width: 858px) {
+  html {
+    font-size: 12px;
+  }
+}
+/*
+@media (min-width: 780px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 702px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 724px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 623px) {
+  html {
+    font-size: 8px;
+  }
+}*/
