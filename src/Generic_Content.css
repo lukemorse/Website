@@ -13,9 +13,13 @@
   font-family: 'Arial';
 }
 
+#background {
+  padding-top: 2em;
+  padding-bottom: 0;
+}
+
 .section_content {
   font-family: 'Arial';
-  margin-top: 2em;
   width: 40%;
   display: inline-block;
   width: auto;
