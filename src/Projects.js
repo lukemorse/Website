@@ -53,7 +53,7 @@ export default class Projects extends Component {
               <a href="https://itunes.apple.com/app/id1226528959" target="_blank" rel="noopener noreferrer">
                 Jelly Ghost
               </a>{' '}
-              is a game that I made for a client.
+              is a game that I made for a client, Ahmed Mohamoud.
             </h3>
           </div>
         </div>

@@ -17,19 +17,19 @@ class Site extends Component {
         <div className="Site">
           <nav className="Menu">
             <h3>
-              <a href="#background">Background</a>
+              <a href="#background">BACKGROUND</a>
             </h3>
             <h3>
-              <a href="#skills">Skills</a>
+              <a href="#skills">SKILLS</a>
             </h3>
             <a href="#top" id="Logo">
               <img src={headShot} className="Logo" alt="logo" />
             </a>
             <h3>
-              <a href="#games">Games</a>
+              <a href="#games">GAMES</a>
             </h3>
             <h3>
-              <a href="#sound">Sound</a>
+              <a href="#sound">SOUND</a>
             </h3>
           </nav>
 

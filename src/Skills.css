@@ -5,16 +5,18 @@
 
 .skills_category {
   display: inline-block;
-  padding-right: 50px;
+  padding-right: 4em;
 }
 
 .skills_category_title {
-  font-weight: 800;
-  font-size: 24px;
+  font-size: 1.3em;
+  font-family: 'Gill Sans';
 }
 
 ul {
   list-style: none;
   padding-left: 0;
-  font-size: 22px;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  font-family: 'Gill Sans';
 }

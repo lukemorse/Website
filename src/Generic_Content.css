@@ -8,9 +8,9 @@
   vertical-align: top;
   text-align: right;
   font-size: 1.6em;
-  color: #0092ff;
-  letter-spacing: 0.25em;
-  font-family: 'Georgia';
+  color: rgb(25, 163, 167);
+  letter-spacing: 0.2em;
+  font-family: 'Arial';
 }
 
 .section_content {
@@ -24,7 +24,8 @@
 
 .section_content h3 {
   margin: auto;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-family: 'Gill Sans';
   font-weight: 200;
   padding-left: 2em;
   padding-right: 4em;

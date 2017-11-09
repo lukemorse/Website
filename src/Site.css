@@ -121,7 +121,7 @@ img:hover {
     color: lightgrey;
   }
   100% {
-    background-color: #0092ff;
+    background-color: rgb(25, 163, 167);
     color: black;
   }
 }
