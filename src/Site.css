@@ -77,7 +77,7 @@
 }
 
 a.Email {
-  text-decoration: underline blue;
+  text-decoration: underline rgb(25, 163, 167);
 }
 
 a:hover {
