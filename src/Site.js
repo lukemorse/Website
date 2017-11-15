@@ -13,47 +13,25 @@ class Site extends Component {
   render() {
     configureAnchors({offset: -100, scrollDuration: 300, keepLastAnchorHash: false});
     return (
-      <div>
-        <div className="Site">
-          <nav className="Menu">
-            <h3>
-              <a href="#background">BACKGROUND</a>
-            </h3>
-            <h3>
-              <a href="#skills">SKILLS</a>
-            </h3>
-            <a href="#top" id="Logo">
-              <img src={headShot} className="Logo" alt="logo" />
-            </a>
-            <h3>
-              <a href="#games">GAMES</a>
-            </h3>
-            <h3>
-              <a href="#sound">SOUND</a>
-            </h3>
-          </nav>
+      <div className="Site">
+        <nav className="Menu">
+          <h3>
+            <a href="#games">GAMES</a>
+          </h3>
+          <h3>
+            <a href="#skills">MUSIC</a>
+          </h3>
+          <a href="#top" id="Logo">
+            <img src={headShot} className="Logo" alt="logo" />
+          </a>
+          <h3>
+            <a href="#games">SOUND</a>
+          </h3>
+          <h3>
+            <a href="#sound">CONTACT</a>
+          </h3>
+        </nav>
 
-          <ScrollableAnchor id={'top'}>
-            <div className="Intro">
-              <h2>
-                Hello! I'm Luke Morse, a well-rounded front-end software engineer, composer, and sound-designer. Send me
-                electronic mail:{' '}
-                <a className="Email" href="mailto:luke.morse@gmail.com">
-                  luke.morse@gmail.com
-                </a>
-              </h2>
-            </div>
-          </ScrollableAnchor>
-        </div>
-
-        <div class="spacer" />
-        <ScrollableAnchor id={'background'}>
-          <Background />
-        </ScrollableAnchor>
-        <div class="spacer" />
-        <ScrollableAnchor id={'skills'}>
-          <Skills />
-        </ScrollableAnchor>
         <div class="spacer" />
         <ScrollableAnchor id={'games'}>
           <Projects />
