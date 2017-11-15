@@ -1,6 +1,5 @@
 .content {
   margin-left: 20%;
-  padding: 3em;
 }
 
 .section_title {
@@ -19,9 +18,8 @@
 
 .section_content {
   font-family: 'Arial';
-  width: 40%;
   display: block;
-  align-content: right;
+  align-content: left;
   width: auto;
   padding-left: 3em;
   padding-top: 4em;
@@ -36,7 +34,6 @@
   display: inline-block;
   vertical-align: top;
   width: 12em;
-  margin: auto;
   font-size: 1.3em;
   font-family: 'Gill Sans';
   font-weight: 200;
@@ -45,12 +42,27 @@
 }
 
 .Project_Picture {
-  width: 30%;
-  height: 30%;
+  width: 20vw;
+  height: 20vw;
   margin-right: 2em;
   display: inline-block;
 }
 
 img {
-  border-radius: 3em;
+  border-radius: 5vw;
+}
+
+@media (max-width: 800px) {
+  .content {
+    margin-left: 0.5em;
+  }
+
+  .Project_Picture {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .Explanation {
+    padding-left: 0;
+  }
 }
