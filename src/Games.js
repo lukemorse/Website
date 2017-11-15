@@ -4,8 +4,6 @@ import iceCreamExp from './images/icecreampic.png';
 import JellyGhost from './images/JellyGhost.png';
 import XSessionsLogo from './images/x-sessions-logo.jpg';
 import CapGroupLogo from './images/cap-group-logo.jpg';
-import YayConPic from './images/yayconpic.jpg';
-import SpringMusicPic from './images/springmusic.jpg';
 
 export default class Games extends Component {
   render() {
