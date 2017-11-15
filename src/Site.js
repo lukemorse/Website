@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import headShot from './images/JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
-import Projects from './Games.js';
+import Games from './Games.js';
+import Music from './Music.js';
 import Skills from './Skills.js';
 import 'animate.css/animate.min.css';
 import Footer from './Footer.js';
@@ -34,7 +35,10 @@ class Site extends Component {
 
         <div class="spacer" />
         <ScrollableAnchor id={'games'}>
-          <Projects />
+          <Games />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'music'}>
+          <Music />
         </ScrollableAnchor>
       </div>
     );
