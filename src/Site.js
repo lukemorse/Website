@@ -4,6 +4,7 @@ import './Site.css';
 import Background from './Background.js';
 import Games from './Games.js';
 import Music from './Music.js';
+import Sound from './Sound.js';
 import Skills from './Skills.js';
 import 'animate.css/animate.min.css';
 import Footer from './Footer.js';
@@ -20,16 +21,16 @@ class Site extends Component {
             <a href="#games">GAMES</a>
           </h3>
           <h3>
-            <a href="#skills">MUSIC</a>
+            <a href="#music">MUSIC</a>
           </h3>
           <a href="#top" id="Logo">
             <img src={headShot} className="Logo" alt="logo" />
           </a>
           <h3>
-            <a href="#games">SOUND</a>
+            <a href="#sound">SOUND</a>
           </h3>
           <h3>
-            <a href="#sound">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </h3>
         </nav>
 
@@ -39,6 +40,9 @@ class Site extends Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={'music'}>
           <Music />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'sound'}>
+          <Sound />
         </ScrollableAnchor>
       </div>
     );

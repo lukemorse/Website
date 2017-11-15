@@ -9,11 +9,7 @@ export default class Music extends Component {
       <div className="content">
         <h1 className="section_title">MUSIC</h1>
         <div className="section_content">
-          <a
-            href="https://lukemorse.bandcamp.com/releases"
-            className="image"
-            target="_blank"
-            rel="noopener noreferrer">
+          <a href="https://lukemorse.bandcamp.com/releases" className="image" target="_blank" rel="noopener noreferrer">
             <img className="Project_Picture" src={SpringMusicPic} alt="Spring Music" />
           </a>
           <h3 className="Explanation">
@@ -44,7 +40,7 @@ export default class Music extends Component {
             that I produced and perfomed in Seattle with.
           </h3>
         </div>
-
       </div>
-    )
+    );
+  }
 }
