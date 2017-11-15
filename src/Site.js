@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import headShot from './images/JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
-import Projects from './Projects.js';
+import Projects from './Games.js';
 import Skills from './Skills.js';
 import 'animate.css/animate.min.css';
 import Footer from './Footer.js';
