@@ -45,7 +45,9 @@ class Site extends Component {
           <Sound />
         </ScrollableAnchor>
         <ScrollableAnchor id={'contact'}>
-          <Music />
+          <div className="Email">
+            <a href="mailto:luke.morse@gmail.com">luke.morse@gmail.com</a>
+          </div>
         </ScrollableAnchor>
       </div>
     );

@@ -77,7 +77,11 @@
   padding: 0.2em;
 }
 
-a.Email {
+.Email {
+  clear: left;
+  margin-top: 15vw;
+  padding-bottom: 15vw;
+  font-size: 5vw;
   text-decoration: underline rgb(25, 163, 167);
 }
 
@@ -133,12 +137,6 @@ img:hover {
   }
   100% {
     color: lightgrey;
-  }
-}
-
-@media (min-width: 858px) {
-  html {
-    font-size: 12px;
   }
 }
 
