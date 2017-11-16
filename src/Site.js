@@ -13,7 +13,7 @@ import {configureAnchors} from 'react-scrollable-anchor';
 
 class Site extends Component {
   render() {
-    configureAnchors({offset: -120, scrollDuration: 300, keepLastAnchorHash: false});
+    configureAnchors({offset: -150, scrollDuration: 300, keepLastAnchorHash: false});
     return (
       <div className="Site">
         <nav className="Menu">
