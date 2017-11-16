@@ -20,3 +20,7 @@ ul {
   line-height: 1.4em;
   font-family: 'Gill Sans';
 }
+
+a {
+  padding: 0.2em;
+}
