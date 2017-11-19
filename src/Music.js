@@ -16,8 +16,8 @@ export default class Music extends Component {
             <a href="https://lukemorse.bandcamp.com/releases" target="_blank" rel="noopener noreferrer">
               Spring Music
             </a>{' '}
-            was my Master's thesis. I wrote a program to reassemble the sounds according to spectral readings at
-            percussive onsets.
+            utilizes a program I wrote to reassemble the sounds made by compression springs, according to spectral
+            readings at percussive onsets.
           </h3>
         </div>
 
@@ -33,11 +33,10 @@ export default class Music extends Component {
             <a href="https://yayconifers.bandcamp.com/album/mt-pilchuck" target="_blank" rel="noopener noreferrer">
               Yay Conifers!
             </a>{' '}
-            was a collaboration with{' '}
+            was a collaboration with violinist and vocalist{' '}
             <a href="https://soundcloud.com/mirandarae/tracks" target="_blank" rel="noopener noreferrer">
-              Miranda Rae
+              Miranda Rae.
             </a>{' '}
-            that I produced and perfomed in Seattle with.
           </h3>
         </div>
       </div>

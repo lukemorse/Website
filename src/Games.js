@@ -26,14 +26,13 @@ export default class Games extends Component {
                 rel="noopener noreferrer">
                 Ice Cream Explosion
               </a>{' '}
-              is the first app I released to the App Store. It is an original arcade style game that I created the{' '}
+              was released to the App Store in 2016, and has over 3,000 downloads to date. The soundtrack can be found {' '}
               <a
                 href="https://soundcloud.com/lukemorse/sets/ice-cream-explosion-soundtrack"
                 target="_blank"
                 rel="noopener noreferrer">
-                music
+                here.
               </a>{' '}
-              and sound FX for.
             </h3>
           </div>
 
@@ -49,7 +48,7 @@ export default class Games extends Component {
               <a href="https://itunes.apple.com/app/id1226528959" target="_blank" rel="noopener noreferrer">
                 Jelly Ghost
               </a>{' '}
-              is a game that I made for a client, Ahmed Mohamoud.
+              is a familiar arcade game made for a client, Ahmed Mohamoud.
             </h3>
           </div>
         </div>

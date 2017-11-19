@@ -20,7 +20,7 @@ export default class Music extends Component {
             <a href="https://tedbattaglia.com/" target="_blank" rel="noopener noreferrer">
               Theodore Battaglia
             </a>{' '}
-            that I did sound design for.
+            created for the Capital Group.
           </h3>
         </div>
 
@@ -32,10 +32,10 @@ export default class Music extends Component {
             <a href="https://vimeo.com/112253396" target="_blank" rel="noopener noreferrer">
               IO By The Numbers
             </a>{' '}
-            is another collaboration I did with visual artist,{' '}
+            is another collaboration with visual artist,{' '}
             <a href="https://tedbattaglia.com/" target="_blank" rel="noopener noreferrer">
-              Ted Battaglia
-            </a>.
+              Ted Battaglia.
+            </a>
           </h3>
         </div>
       </div>
