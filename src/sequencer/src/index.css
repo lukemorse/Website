@@ -1,0 +1,81 @@
+* {
+  background-color: black;
+}
+
+button {
+  background: lightgrey;
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  color: #ffffff;
+  margin: 0.12em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: black;
+  outline: none;
+  opacity: 0.6;
+  display: block;
+  width: 3.2em;
+  height: 3.2em;
+}
+
+.buttonColumn {
+  float: left;
+  /*display: inline-block;*/
+  text-align: center;
+}
+
+br {
+  clear: both;
+}
+
+ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+.ButtonMatrix {
+  text-align: center;
+  display: block;
+}
+
+.PlayPauseButton {
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+button.altBeat {
+  background: #b0e0e6;
+}
+
+button.active {
+  background: rgb(25, 163, 167);
+}
+
+button#currentBeat {
+  opacity: 1;
+}
+
+.slider {
+  width: 300px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .ButtonMatrix {
+    margin-left: 22%;
+  }
+}
