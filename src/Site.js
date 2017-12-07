@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Sequencer from 'Sequencer';
+import Sequencer from 'sequencer';
 import headShot from './images/JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
