@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import Async from 'react-promise';
 import './index.css';
 import {TempoSlider, GainSlider} from './Sliders.js';
 
@@ -188,6 +187,7 @@ const AudioContext = window.AudioContext || window.webkitAudioContext;
 const audioContext = new AudioContext();
 var gainNode = audioContext.createGain();
 gainNode.gain.value = 0.5;
+gainNode.connect(audioContext.destination);
 
 const promises = sounds.map(({url}, index) => {
   return fetch(url)
@@ -205,8 +205,7 @@ const promises = sounds.map(({url}, index) => {
 function playSound(index) {
   const node = audioContext.createBufferSource();
   node.buffer = sounds[index].buffer;
-  const ampSig = node.connect(gainNode);
-  ampSig.connect(audioContext.destination);
+  node.connect(gainNode);
   node.start();
 }
 
