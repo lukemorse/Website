@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Async from 'react-promise';
+// import Async from 'react-promise';
 import './index.css';
 import {TempoSlider, GainSlider} from './Sliders.js';
 
@@ -216,9 +216,11 @@ function changeGain(gain) {
 
 Promise.all(promises)
   .then(() => {
-    ReactDOM.render(<Sampler />, document.getElementById('root'));
+    // ReactDOM.render(<Sampler />, document.getElementById('root'));
   })
   .catch(err => {
     // TODO: render a "loading failed" component probably
     document.body.innerHTML = `<h1>blurrr some kinda err: ${err}</h1>`;
   });
+
+export default Sampler;
