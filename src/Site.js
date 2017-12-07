@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Sequencer from 'Sequencer';
 import headShot from './images/JLu Head shot.png';
 import './Site.css';
 import Background from './Background.js';
@@ -33,7 +34,7 @@ class Site extends Component {
             <a href="#contact">CONTACT</a>
           </h3>
         </nav>
-
+        <Sequencer />
         <div class="spacer" />
         <ScrollableAnchor id={'games'}>
           <Games />
