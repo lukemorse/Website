@@ -70,8 +70,9 @@ button#currentBeat {
 }
 
 .slider {
-  width: 300px;
+  width: 50%;
   margin: 0 auto;
+  padding-bottom: 0.05em;
 }
 
 @media (min-width: 800px) {

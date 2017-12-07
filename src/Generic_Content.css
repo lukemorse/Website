@@ -30,6 +30,12 @@
   height: 12em;
 }
 
+@media (max-width: 800px) {
+  .spacer {
+    height: 6rem;
+  }
+}
+
 .Explanation {
   display: inline-block;
   vertical-align: top;
