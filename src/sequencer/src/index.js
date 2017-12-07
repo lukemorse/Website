@@ -13,19 +13,19 @@ for (var i = 0; i < numBeats; i++) {
 const sounds = [
   {
     name: 'Sound0',
-    url: 'kick 11.wav',
+    url: 'kick11.wav',
   },
   {
     name: 'Sound1',
-    url: 'Hat 52.wav',
+    url: 'Hat52.wav',
   },
   {
     name: 'Sound2',
-    url: 'Clap 13.wav',
+    url: 'Clap13.wav',
   },
   {
     name: 'Sound3',
-    url: 'snare 347.wav',
+    url: 'snare347.wav',
   },
 ];
 
@@ -190,7 +190,7 @@ gainNode.gain.value = 0.5;
 gainNode.connect(audioContext.destination);
 
 const promises = sounds.map(({url}, index) => {
-  return fetch(url)
+  return fetch(process.env.PUBLIC_URL + url)
     .then(response => {
       return response.arrayBuffer();
     })
