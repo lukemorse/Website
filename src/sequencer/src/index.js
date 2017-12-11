@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {TempoSlider, GainSlider} from './Sliders.js';
 
+var load_failure = false;
 var numBeats = 16;
 var subDiv = 4;
 var buttonRows = [];
@@ -168,6 +169,9 @@ class Sampler extends React.Component {
   }
 
   render() {
+    if (load_failure) {
+      return <h1>Failed to load Sequencer</h1>;
+    }
     return (
       <div>
         <TempoSlider onChange={tempo => this.changeTempo(tempo)} />
@@ -190,7 +194,8 @@ gainNode.gain.value = 0.5;
 gainNode.connect(audioContext.destination);
 
 const promises = sounds.map(({url}, index) => {
-  return fetch(process.env.PUBLIC_URL + url)
+  console.log(process.env.PUBLIC_URL);
+  return fetch(process.env.PUBLIC_URL + '/' + url)
     .then(response => {
       return response.arrayBuffer();
     })
@@ -214,12 +219,10 @@ function changeGain(gain) {
 }
 
 Promise.all(promises)
-  .then(() => {
-    // ReactDOM.render(<Sampler />, document.getElementById('root'));
-  })
+  .then(() => {})
   .catch(err => {
-    // TODO: render a "loading failed" component probably
-    document.body.innerHTML = `<h1>blurrr some kinda err: ${err}</h1>`;
+    console.log(err);
+    load_failure = true;
   });
 
 export default Sampler;
