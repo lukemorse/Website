@@ -14,7 +14,7 @@ for (var i = 0; i < numBeats; i++) {
 const sounds = [
   {
     name: 'Sound0',
-    url: 'kick11.wav',
+    url: 'Kick11.wav',
   },
   {
     name: 'Sound1',
@@ -26,7 +26,7 @@ const sounds = [
   },
   {
     name: 'Sound3',
-    url: 'snare347.wav',
+    url: 'Snare347.wav',
   },
 ];
 
