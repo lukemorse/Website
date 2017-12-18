@@ -39,11 +39,12 @@ ul {
   display: block;
 }
 
-.PlayPauseButton {
+.BigButton {
   text-align: center;
   display: block;
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 

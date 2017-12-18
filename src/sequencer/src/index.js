@@ -40,8 +40,18 @@ class PlayPauseButton extends React.Component {
 
   render() {
     return (
-      <button className={'PlayPauseButton'} onClick={() => this.props.onClick()}>
+      <button className={'BigButton'} onClick={() => this.props.onClick()}>
         {this.props.status}
+      </button>
+    );
+  }
+}
+
+class ClearButton extends React.Component {
+  render() {
+    return (
+      <button className={'BigButton'} onClick={() => this.props.onClick()}>
+        CLEAR
       </button>
     );
   }
@@ -57,7 +67,6 @@ class Sampler extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      // buttons: Array(sounds.length).fill(Array(buttonRows.length).fill(false)),
       buttons: [
         [true, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false],
         [false, false, true, false, false, false, true, false, false, false, true, false, false, false, true, false],
@@ -168,6 +177,12 @@ class Sampler extends React.Component {
     });
   }
 
+  clearMatrix() {
+    this.setState({
+      buttons: Array(sounds.length).fill(Array(buttonRows.length).fill(false)),
+    });
+  }
+
   render() {
     if (load_failure) {
       return <h1>Failed to load Sequencer</h1>;
@@ -177,6 +192,7 @@ class Sampler extends React.Component {
         <TempoSlider onChange={tempo => this.changeTempo(tempo)} />
         <GainSlider onChange={gain => changeGain(gain)} />
         <PlayPauseButton onClick={() => this.playPauseBeat()} status={this.state.isPlaying ? 'PAUSE' : 'PLAY'} />
+        <ClearButton onClick={() => this.clearMatrix()} />
         <div className={'ButtonMatrix'}>
           <ul>{this.makeTableOfButtons()}</ul>
         </div>
